@@ -75,7 +75,7 @@ export default function SideBar() {
     <aside
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseOut}
-      className={`aside-content ${open ? 'w-80' : 'w-20'} bg-white p-4 h-3/4 flex flex-col gap-4 duration-200 fixed left-5 top-5 rounded-2xl z-10 overflow-y-auto cursor-pointer`}
+      className={`aside-content ${open ? 'w-80' : 'w-20'} bg-white mt-14 p-4 h-3/4 flex flex-col gap-4 duration-200 rounded-2xl z-20 overflow-y-auto cursor-pointer shadow-2xl`} // Changed shadow-lg to shadow-2xl
     >
       <img
         src={img_equatorial_logo}
