@@ -11,17 +11,17 @@ function App() {
 
   return (
     <>
-    <header className='flex justify-end gap-10 bg-cyan-600 fixed w-full h-52 px-2 pt-4 '>
-        <section className='flex'>
+    <header className='flex justify-end items-start gap-10 bg-cyan-600 absolute w-full h-52 px-2 pt-4'>
+        <section className='flex items-start'>
           <span className='text-white p-2 font-bold'>Bom dia, Amanda!</span>
           <span className='size-[40px] border rounded-full p-1 bg-white'><img src={profile} /></span>
-          
         </section>
-        <span className='font-bold flex self-start p-2 rounded-2xl gap-2 cursor-pointer duration-300 hover:bg-white text-white hover:text-cyan-600'>Sair <LogOut className='hover:text-cyan-600'/></span>
+        <span className='font-bold flex p-2 rounded-2xl gap-2 cursor-pointer duration-300 hover:bg-white text-white hover:text-cyan-600'>Sair <LogOut className='hover:text-cyan-600'/></span>
       </header>
       <div className='grid grid-cols-[100px_4fr] justify-items-start h-screen mx-auto w-[90%]'>
         <SideBar />
         <Main />
+
       
       </div>
     </>

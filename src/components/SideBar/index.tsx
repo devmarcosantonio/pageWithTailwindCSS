@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {JSX} from 'react'
 import { LayoutDashboard, Sheet, Trophy, Bolt} from 'lucide-react'
 import img_equatorial_logo from '../../assets/menu-btn-title.png'
 import MenuSideBarOpen from './MenuSideBar'
